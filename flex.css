@@ -1,0 +1,30 @@
+.flex-container{
+display: flex;
+border: 1px solid brown;
+justify-content:space-between;
+align-items: center;
+/*flex-direction: row;*/
+/*height: 300px;*/
+.item-1{
+    flex-shrink: 1;
+    
+}
+.item-2{
+    flex-shrink: 2;
+    
+}
+.item-4{
+    flex-shrink: 4;
+}
+.item-6{
+    flex-shrink: 6;
+}
+.flex-item{
+    flex-basis: 200px;
+    flex-shrink: 1;
+    width:200px;
+    height:200px; 
+    background-color: #d0882f;
+    text-align: center;
+    margin: 5px;
+}
